@@ -22,7 +22,7 @@ export 'credentials.dart';
 
 part 'src/core/amount.dart';
 part 'src/core/block_number.dart';
-part 'src/core/client.dart';
+part 'src/core/Web3Client.dart';
 part 'src/core/expensive_operations.dart';
 part 'src/core/filters.dart';
 part 'src/core/sync_information.dart';
