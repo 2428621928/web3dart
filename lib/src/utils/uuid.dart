@@ -3,7 +3,7 @@ import 'dart:typed_data';
 import 'package:convert/convert.dart';
 import 'package:uuid/uuid.dart';
 
-const _uuid = Uuid();
+var _uuid = Uuid();
 
 /// Formats the [uuid] bytes as an uuid.
 String formatUuid(List<int> uuid) => Uuid.unparse(uuid);
