@@ -6,7 +6,7 @@ import 'package:uuid/uuid.dart';
 var _uuid = Uuid();
 
 /// Formats the [uuid] bytes as an uuid.
-String formatUuid(List<int> uuid) => Uuid.unparse(uuid);
+String formatUuid(List<int> uuid) => Uuid().unparse(uuid);
 
 /// Generates a v4 uuid.
 Uint8List generateUuidV4() {
